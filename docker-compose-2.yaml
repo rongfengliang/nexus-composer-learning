@@ -1,0 +1,7 @@
+version: "3"
+services: 
+   composer:
+    image: composer/satis
+    volumes: 
+    - "./build:/build"
+    

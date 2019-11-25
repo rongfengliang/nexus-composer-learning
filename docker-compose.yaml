@@ -1,0 +1,8 @@
+version: "3"
+services: 
+  nexus:
+     image: jbuncle/nexus-repository-composer
+     volumes: 
+     - "./nexus-data:/nexus-data"
+     ports: 
+     - "8081:8081"
