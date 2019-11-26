@@ -35,3 +35,19 @@ composer install
 cd demoproject
 php demo.php
 ```
+
+## upload composer component
+
+* with curl 
+
+```code
+cd demoproject
+curl -v --user 'admin:xxxx' --upload-file dalongdemo-1.0.zip http://localhost:8081/repository/myhost-composer/packages/upload/dalongrong/dalongdemo/1.0
+
+```
+
+* some notes
+
+```codee
+myhost-composer one composer reepo with host type
+```

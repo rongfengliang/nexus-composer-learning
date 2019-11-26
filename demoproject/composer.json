@@ -2,9 +2,15 @@
     "config": {
        "secure-http": false
     },
+    "version": "1.0",
+    "name": "dalongdemo",
+    "description": "this is a demo composer repo",
+    "authors": [{
+        "name": "dalong",
+        "email": "1141591465@qq.com"
+    }],
     "require": {
         "monolog/monolog": "1.0.*",
-        "rhumsaa/uuid":"2.8.2",
         "pugx/shortid-php":"v0.5.1"
     },
     "repositories": {
